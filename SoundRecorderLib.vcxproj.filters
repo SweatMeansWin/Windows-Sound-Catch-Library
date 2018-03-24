@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AudioBuffer.cpp" />
+    <ClCompile Include="AudioResampler.cpp" />
+    <ClCompile Include="LameWrapper.cpp" />
+    <ClCompile Include="SoundCapturer.cpp" />
+    <ClCompile Include="lame\applame\brhist.c">
+      <Filter>Lame</Filter>
+    </ClCompile>
+    <ClCompile Include="lame\applame\get_audio.c">
+      <Filter>Lame</Filter>
+    </ClCompile>
+    <ClCompile Include="lame\applame\lame_main.c">
+      <Filter>Lame</Filter>
+    </ClCompile>
+    <ClCompile Include="lame\applame\lametime.c">
+      <Filter>Lame</Filter>
+    </ClCompile>
+    <ClCompile Include="lame\applame\parse.c">
+      <Filter>Lame</Filter>
+    </ClCompile>
+    <ClCompile Include="lame\applame\timestatus.c">
+      <Filter>Lame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioBuffer.h" />
+    <ClInclude Include="AudioResampler.h" />
+    <ClInclude Include="LameWrapper.h" />
+    <ClInclude Include="SoundCapturer.h" />
+    <ClInclude Include="WaveOperations.h" />
+    <ClInclude Include="lame\applame\brhist.h">
+      <Filter>Lame</Filter>
+    </ClInclude>
+    <ClInclude Include="lame\applame\config.h">
+      <Filter>Lame</Filter>
+    </ClInclude>
+    <ClInclude Include="lame\applame\get_audio.h">
+      <Filter>Lame</Filter>
+    </ClInclude>
+    <ClInclude Include="lame\applame\lametime.h">
+      <Filter>Lame</Filter>
+    </ClInclude>
+    <ClInclude Include="lame\applame\parse.h">
+      <Filter>Lame</Filter>
+    </ClInclude>
+    <ClInclude Include="lame\applame\timestatus.h">
+      <Filter>Lame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Lame">
+      <UniqueIdentifier>{f85652ac-9d4f-4092-b50b-749d24550481}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
